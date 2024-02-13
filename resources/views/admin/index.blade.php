@@ -82,72 +82,7 @@
                     </a>
                   </td>
                 </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Post Dois</td>
-                  <td>Desenvolvimento Mobile</td>
-                  <td>5 de julho de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Post Três</td>
-                  <td>Desenvolvimento Desktop</td>
-                  <td>30 de junho de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Post Quatro</td>
-                  <td>Negócios</td>
-                  <td>22 de junho de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Post Cinco</td>
-                  <td>Marketing</td>
-                  <td>16 de junho de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>6</td>
-                  <td>Post Seis</td>
-                  <td>Desenvolvimento Web</td>
-                  <td>4 de junho de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>7</td>
-                  <td>Post Sete</td>
-                  <td>Desenvolvimento Mobile</td>
-                  <td>30 de maio de 2020</td>
-                  <td>
-                    <a href="details.html" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
+             
               </tbody>
             </table>
           </div>

@@ -49,56 +49,22 @@
                 </tr>
               </thead>
               <tbody>
+                
+                @foreach ($categories as $category)
+                    
+              
                 <tr>
-                  <td>1</td>
-                  <td>Desenvolvimento Web</td>
-                  <td>10 de julho de 2020</td>
+                  <td>{{ $loop->iteration }}</td>
+                  <td>{{$category->name}}</td>
+                  <td>{{$category->created_at->format('Y-m-d H:i:s')}}</td>
                   <td>
                     <a href="#" class="btn btn-secondary">
                       <i class="fas fa-angle-double-right"></i> Mais Detalhes
                     </a>
                   </td>
                 </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Desenvolvimento Mobile</td>
-                  <td>5 de julho de 2020</td>
-                  <td>
-                    <a href="#" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Desenvolvimento Desktop</td>
-                  <td>30 de junho de 2020</td>
-                  <td>
-                    <a href="#" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Negócios</td>
-                  <td>22 de junho de 2020</td>
-                  <td>
-                    <a href="#" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Marketing</td>
-                  <td>16 de junho de 2020</td>
-                  <td>
-                    <a href="#" class="btn btn-secondary">
-                      <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                    </a>
-                  </td>
-                </tr>
+                @endforeach
+               
               </tbody>
             </table>
           </div>

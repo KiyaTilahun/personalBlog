@@ -47,46 +47,20 @@
                     </tr>
                   </thead>
                   <tbody>
+                    @foreach ($users as $user)
+                    
+              
                     <tr>
-                      <td>1</td>
-                      <td>Gideon Fernandes</td>
-                      <td>gideon@random.com</td>
+                      <td>{{ $loop->iteration }}</td>
+                      <td>{{$user->name}}</td>
+                      <td>{{$user->email}}</td>
                       <td>
                         <a href="#" class="btn btn-secondary">
                           <i class="fas fa-angle-double-right"></i> Mais Detalhes
                         </a>
                       </td>
                     </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Herika Fernandes</td>
-                      <td>herika@random.com</td>
-                      <td>
-                        <a href="#" class="btn btn-secondary">
-                          <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Ryan Fernandes</td>
-                      <td>ryan@random.com</td>
-                      <td>
-                        <a href="#" class="btn btn-secondary">
-                          <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>John Doe</td>
-                      <td>john@random.com</td>
-                      <td>
-                        <a href="#" class="btn btn-secondary">
-                          <i class="fas fa-angle-double-right"></i> Mais Detalhes
-                        </a>
-                      </td>
-                    </tr>
+                    @endforeach
                   </tbody>
                 </table>
               </div>
